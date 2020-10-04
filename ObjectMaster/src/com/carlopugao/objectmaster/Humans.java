@@ -4,7 +4,7 @@ public class Humans {
 	public int strength = 3;
 	public int stealth = 3;
 	public int intelligence = 3;
-	public int health = 100;
+	private int health = 100;
 	
 	public Humans() {}
 	

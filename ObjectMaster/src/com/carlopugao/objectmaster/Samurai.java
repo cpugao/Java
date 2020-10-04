@@ -4,14 +4,14 @@ public class Samurai extends Humans {
 	private static int samurais = 0;
 	
 	
-	
 	public void deathBlow(Humans human) {
 		human.setHealth(human.getHealth() - human.getHealth());
-		setHealth(health/2);
+		setHealth(super.getHealth()/2);
 	}
 	
 	public void meditate() {
-		health += (health/2);
+		int currentHealth = getHealth();
+		super.setHealth(currentHealth+ currentHealth/2);
 	}
 	
 	public Samurai() {
