@@ -41,7 +41,7 @@ public class LicensesController {
 				"New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon",
 				"Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas",
 				"Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"));
-		model.addAttribute("states", states);
+		model.addAttribute("states", states); 
 		return "driverslicense/newlicense.jsp";
 	}
 	
