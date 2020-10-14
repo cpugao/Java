@@ -50,39 +50,39 @@ public class CategoryProduct {
     
 	//Constructors
     public CategoryProduct() {
-          	
-    //Getters
     }
 	public Long getId() {
 		return id;
 	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public Date getCreatedAt() {
 		return createdAt;
+	}
+	public void setCreatedAt(Date createdAt) {
+		this.createdAt = createdAt;
 	}
 	public Date getUpdatedAt() {
 		return updatedAt;
 	}
-	public Product getProduct() {
-		return product;
-	}
-	public Category getCategory() {
-		return category;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	
-	//Setters
-	public void setCreatedAt(Date createdAt) {
-		this.createdAt = createdAt;
-	}
 	public void setUpdatedAt(Date updatedAt) {
 		this.updatedAt = updatedAt;
+	}
+	public Product getProduct() {
+		return product;
 	}
 	public void setProduct(Product product) {
 		this.product = product;
 	}
+	public Category getCategory() {
+		return category;
+	}
 	public void setCategory(Category category) {
 		this.category = category;
 	}
+    
+    
 }
+    
+	
