@@ -65,6 +65,15 @@ public class Users {
     	
     }
     
+    //@RequestMapping("/home")
+    //public String home(@ModelAttribute("team") Team team, Model model, HttpSession session) {
+    //	if (session.getAttribute("user_id") != null) {
+    //		modeladdAttribute("teams", teamService.allTeams());
+    //		return "createTeam.jsp";
+    //	}
+    //	return "redirect:/login";
+    //}
+    
     @RequestMapping("/home")
     public String home(HttpSession session, Model model) {
         // get user from session, save them in the model and return the home page

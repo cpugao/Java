@@ -17,7 +17,7 @@
 <a href="/languages/edit/${language.id}">Edit</a>
 <form:form action="/languages/${language.id}" method="POST">
   		<input type="hidden" name="_method" value="delete">
-  		<input class="btn btn-link" type="submit" value="Delete"/>
+  		<input type="submit" value="Delete"/>
   	</form:form>
 </body>
 </html>
